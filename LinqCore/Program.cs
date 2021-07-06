@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinqCore.convert;
+using LinqCore.value;
 
 namespace LinqCore
 {
@@ -6,7 +7,14 @@ namespace LinqCore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("LinqCore Hello World!");
+            // convert
+            GroupBy.Exec();
+
+
+
+
+            // value
+            //Join.Exec();
         }
     }
 }
