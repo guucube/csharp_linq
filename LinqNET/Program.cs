@@ -1,12 +1,17 @@
-﻿using System;
+﻿using LinqNET.value;
+using LinqNET.sort;
+using System;
 
 namespace LinqNET
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("LinqNET Hello World!");
-        }
+      //Console.WriteLine("LinqNET Hello World!");
+
+      // sort
+      OrderBy.Exec();
     }
+  }
 }
