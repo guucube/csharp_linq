@@ -11,7 +11,10 @@ namespace LinqNET
       //Console.WriteLine("LinqNET Hello World!");
 
       // sort
-      OrderBy.Exec();
+      // OrderBy.Exec();
+      
+      // value
+      Join.Exec();
     }
   }
 }
